@@ -1,9 +1,9 @@
 {
-  "name": "vite-react-rescript-starter",
+  "name": "rescript-gol",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "NODE_ENV='production' vite build",
+    "build": "NODE_ENV='production' vite build --base=/rescript-gol/",
     "clean": "rescript clean -with-deps",
     "format": "rescript format -all",
     "serve": "vite preview",
